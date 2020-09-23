@@ -1,0 +1,68 @@
+body {
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.table-form {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.feedback-form {
+    float: left;
+    margin-bottom: 0px;
+    width: 640px;
+    height: 200px;
+}
+
+.feedback-form .title {
+    font-weight: bold;
+    vertical-align: center;
+    text-align: right;
+    padding-top: 5px;
+    width: 105px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="password"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    line-height: 25px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: #404040;
+    outline: none;
+    border: 2px solid #a6a6a6;
+    vertical-align: top;
+}
+
+.feedback-form textarea {
+    height: 100px;
+}
+
+.table_caption {
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    background-color: #382d78;
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    display: block;
+    line-height: 70px;
+}
